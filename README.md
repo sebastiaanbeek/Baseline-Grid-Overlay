@@ -4,7 +4,7 @@
 
 [Sebastiaan Beek portfolio (sebastiaanbeek.nl)](https://sebastiaanbeek.nl)
 
-Press `Ctrl + g`
+Press `Alt + g`
 
 ## Code
 
@@ -45,7 +45,7 @@ $baseline-color: rgba(white, 0.06); //The color of the grid
 ```javascript
 const body = document.querySelector("html");
 document.onkeyup = function (e) {
-    if (e.ctrlKey && e.which == 71) {
+    if (e.altKey && e.which == 71) {
         body.classList.toggle("baseline");
     }
 };
